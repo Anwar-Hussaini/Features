@@ -14,6 +14,113 @@
 /* PRICING SECTION */
 /********************/
 
+.section-pricing {
+    background-color: rgb(39, 48, 58);
+    color: #fff;
+    padding: 48px;
+    font-family: "Inter", sans-serif;
+}
+
+.pricing-header-box {
+    text-align: center;
+    width: 60rem;
+    margin: 0 auto;
+    padding: 48px;
+}
+
+.pricing-header-box h2 {
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0.4;
+    margin-bottom: 32px;
+}
+
+.pricing-header-box p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.underline {
+    border-bottom: solid 3px #bbb;
+    font-weight: 600;
+}
+
+.plan-container-box {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.plan-box {
+    width: 40rem;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #888;
+    font-size: 16px;
+}
+
+.plan-top-box {
+    padding: 32px;
+}
+
+.plan-title {
+    background-color: #e7f5ff;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    text-transform: uppercase;
+    color: #4dabf7;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.plan-price {
+    margin-bottom: 32px;
+}
+
+.plan-price span {
+    font-size: 48px;
+    font-weight: 1000;
+    color: black;
+}
+
+.plan-bottom-box {
+    background-color: #f1f3f5;
+    padding: 18px;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    line-height: 42px;
+    border-radius: 12px;
+}
+
+.icon--med {
+    width: 18px;
+    height: 18px;
+    color: black;
+    align-self: center;
+    justify-self: center;
+}
+
+.social {
+    grid-column: 2/-1;
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+.btn:link,
+.btn:visited {
+    grid-column: 1/-1;
+    background-color: #1c1f22;
+    padding: 12px 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 12px;
+    margin-top: 32px;
+}
+
+.btn:hover {
+    background-color: #2a2e32;
+}
 /********************/
 /* FOOTER SECTION */
-/********************/
+/********************/ ;
