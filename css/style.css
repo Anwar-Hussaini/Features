@@ -9,144 +9,218 @@
 /********************/
 /* SCHEDULE SECTION */
 /********************/
-
+.schedule {
+	background-color: rgba(243, 244, 246, 1);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 8.6rem 6.4rem;
+	column-gap: 3.2rem;
+}
+.timetable {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 0 6.4rem;
+	padding-left: 0;
+	column-gap: 3rem;
+}
+.time {
+	background-color: #fff;
+	padding: 1.6rem;
+	border-radius: 9px;
+	border: 1px solid #ddd;
+}
+.time p {
+	font-size: 2rem;
+	font-weight: 600;
+	font-family: "Inter", serif;
+	margin-bottom: 2rem;
+}
+.time p::after {
+	content: "";
+	width: 80%;
+	display: inline-block;
+	height: 1px;
+	background: lightgray;
+}
+.time-list {
+	list-style: none;
+	font-size: 2rem;
+	color: #ccc;
+}
+.time-list li {
+	padding-bottom: 1.2rem;
+}
+.schedule-text {
+	align-self: center;
+}
+.heading-schedule {
+	font-family: "Inter", serif;
+	font-size: 4rem;
+	color: black;
+	font-weight: 800;
+	margin-bottom: 4.8rem;
+}
+.description-schedule {
+	font-family: "Inter", serif;
+	color: gray;
+	font-size: 1.8rem;
+	line-height: 1.5;
+}
+.full-control {
+	background-color: rgba(249, 250, 251, 1);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 8.6rem 6.4rem;
+	column-gap: 3.2rem;
+}
+.control-text {
+	font-size: 1.8rem;
+	font-weight: 600;
+	font-family: "Inter", serif;
+	margin-bottom: 2rem;
+	color: #ddd;
+	margin-top: 2rem;
+}
+.control-box img {
+	width: 100%;
+}
 /********************/
 /* PRICING SECTION */
 /********************/
 /* header section*/
 .hd {
-  padding-top: 30px;
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(39, 48, 58);
-  color: #fff;
-  padding: 0 32px;
-  align-items: center;
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(39, 48, 58);
+	color: #fff;
+	padding: 0 32px;
+	align-items: center;
 }
 .left {
-  display: flex;
-  align-items: center;
-  gap: 32px;
+	display: flex;
+	align-items: center;
+	gap: 32px;
 }
 .post {
-  font-size: 40px;
-  color: #fff;
+	font-size: 40px;
+	color: #fff;
 }
 .right {
-  display: flex;
-  gap: 32px;
+	display: flex;
+	gap: 32px;
 }
 .feature {
-  font-size: 20px;
-  color: lightgray;
+	font-size: 20px;
+	color: lightgray;
 }
 
 .section-pricing {
-  background-color: rgb(39, 48, 58);
-  color: #fff;
-  padding: 48px;
-  font-family: "Inter", sans-serif;
+	background-color: rgb(39, 48, 58);
+	color: #fff;
+	padding: 48px;
+	font-family: "Inter", sans-serif;
 }
 
 .pricing-header-box {
-  text-align: center;
-  width: 60rem;
-  margin: 0 auto;
-  padding: 48px;
+	text-align: center;
+	width: 60rem;
+	margin: 0 auto;
+	padding: 48px;
 }
 
 .pricing-header-box h2 {
-  font-size: 32px;
-  font-weight: 900;
-  letter-spacing: 0.4;
-  margin-bottom: 32px;
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 0.4;
+	margin-bottom: 32px;
 }
 
 .pricing-header-box p {
-  font-size: 18px;
-  line-height: 1.8;
+	font-size: 18px;
+	line-height: 1.8;
 }
 .underline {
-  border-bottom: solid 3px #bbb;
-  font-weight: 600;
+	border-bottom: solid 3px #bbb;
+	font-weight: 600;
 }
 
 .plan-container-box {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+	display: flex;
+	justify-content: center;
+	gap: 24px;
 }
 
 .plan-box {
-  width: 40rem;
-  border-radius: 12px;
-  background-color: #fff;
-  color: #888;
-  font-size: 16px;
+	width: 40rem;
+	border-radius: 12px;
+	background-color: #fff;
+	color: #888;
+	font-size: 16px;
 }
 
 .plan-top-box {
-  padding: 32px;
+	padding: 32px;
 }
 
 .plan-title {
-  background-color: #e7f5ff;
-  display: inline-block;
-  padding: 8px 16px;
-  border-radius: 1000px;
-  text-transform: uppercase;
-  color: #4dabf7;
-  font-size: 12px;
-  margin-bottom: 16px;
+	background-color: #e7f5ff;
+	display: inline-block;
+	padding: 8px 16px;
+	border-radius: 1000px;
+	text-transform: uppercase;
+	color: #4dabf7;
+	font-size: 12px;
+	margin-bottom: 16px;
 }
 
 .plan-price {
-  margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 .plan-price span {
-  font-size: 48px;
-  font-weight: 1000;
-  color: black;
+	font-size: 48px;
+	font-weight: 1000;
+	color: black;
 }
 
 .plan-bottom-box {
-  background-color: #f1f3f5;
-  padding: 18px;
-  display: grid;
-  grid-template-columns: 48px 1fr;
-  line-height: 42px;
-  border-radius: 12px;
+	background-color: #f1f3f5;
+	padding: 18px;
+	display: grid;
+	grid-template-columns: 48px 1fr;
+	line-height: 42px;
+	border-radius: 12px;
 }
 
 .icon--med {
-  width: 18px;
-  height: 18px;
-  color: black;
-  align-self: center;
-  justify-self: center;
+	width: 18px;
+	height: 18px;
+	color: black;
+	align-self: center;
+	justify-self: center;
 }
 
 .social {
-  grid-column: 2/-1;
-  font-size: 12px;
-  margin-top: -8px;
+	grid-column: 2/-1;
+	font-size: 12px;
+	margin-top: -8px;
 }
 
 .btn:link,
 .btn:visited {
-  grid-column: 1/-1;
-  background-color: #1c1f22;
-  padding: 12px 24px;
-  color: #fff;
-  text-align: center;
-  font-weight: 600;
-  border-radius: 12px;
-  margin-top: 32px;
+	grid-column: 1/-1;
+	background-color: #1c1f22;
+	padding: 12px 24px;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	border-radius: 12px;
+	margin-top: 32px;
 }
 
 .btn:hover {
-  background-color: #2a2e32;
+	background-color: #2a2e32;
 }
 /********************/
 /* FOOTER SECTION */
